@@ -57,7 +57,7 @@ export default function LibraryPage() {
           ))}
           
           {tracks.length === 0 && (
-            <p className="opacity-50 italic">No tracks found. Add some.</p>
+            <p className="opacity-50 italic">No tracks found. <Link href="/create" className="hover:underline opacity-80 hover:opacity-100 text-blue-400">Add some.</Link></p>
           )}
         </div>
       </div>

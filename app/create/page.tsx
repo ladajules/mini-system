@@ -19,7 +19,7 @@ export default function CreateTrackPage() {
 
   return (
     <div className="max-w-md">
-      <h2 className="text-3xl font-bold mb-8 uppercase border-b border-white/20 pb-4">New Track</h2>
+      <h2 className="text-3xl font-bold mb-8 uppercase border-b border-white/20 pb-4">Add New Track</h2>
       
       <form onSubmit={handleSubmit} className="flex flex-col gap-6">
         <div className="flex flex-col gap-2">
